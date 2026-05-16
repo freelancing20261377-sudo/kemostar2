@@ -687,16 +687,11 @@
       background: var(--cream) !important;
     }
     .pr-img::before { display: none; }
-    .pr-img::after {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 4px;
-      background: var(--orange); z-index: 2;
-    }
+    .pr-img::after { display: none !important; }
     .pr-img img {
-      width: 86% !important;
-      max-width: 86% !important;
-      max-height: 292px !important;
+      width: 92% !important;
+      max-width: 92% !important;
+      max-height: 308px !important;
       height: auto !important;
       object-fit: contain;
       position: relative; z-index: 1;
