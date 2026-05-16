@@ -376,13 +376,13 @@
     background: var(--cream);
     position: relative; overflow: hidden;
     display: flex; align-items: center; justify-content: center;
-    padding: 40px 36px;
+    padding: 8px;
   }
   .pr-img-grid { display: none; }
   .pr-img-num { display: none; }
   .pr-img img {
     position: relative; z-index: 1;
-    max-height: 400px; max-width: 88%; width: auto; height: auto;
+    max-height: 484px; max-width: 96%; width: auto; height: auto;
     object-fit: contain;
     animation: pr-float 4s ease-in-out infinite;
     transform-origin: center bottom;
@@ -673,17 +673,17 @@
       width: 100% !important;
       min-height: 320px !important;
       height: 320px;
-      padding: 16px 12px !important;
+      padding: 6px !important;
       position: relative;
       background: var(--cream) !important;
     }
     .pr-img::before { display: none; }
     .pr-img::after { display: none !important; }
     .pr-img img {
-      width: 92% !important;
-      max-width: 92% !important;
-      max-height: 308px !important;
+      width: auto !important;
+      max-width: 98% !important;
       height: auto !important;
+      max-height: 308px !important;
       object-fit: contain;
       position: relative; z-index: 1;
       animation: none !important;
@@ -711,14 +711,14 @@
     .pc-enquire:hover { background: var(--orange); border-color: var(--orange); color: white; }
   }
   @media (max-width: 600px) {
-    .pr-img { min-height: 290px !important; height: 290px; padding: 12px 10px !important; }
-    .pr-img img { width: 88% !important; max-width: 88% !important; max-height: 266px !important; }
+    .pr-img { min-height: 290px !important; height: 290px; padding: 6px !important; }
+    .pr-img img { max-width: 98% !important; max-height: 278px !important; }
     .pr-h3 { font-size: 23px !important; }
     .pr-text { padding: 20px 18px 24px !important; }
   }
   @media (max-width: 400px) {
-    .pr-img { min-height: 260px !important; height: 260px; padding: 10px 8px !important; }
-    .pr-img img { width: 90% !important; max-width: 90% !important; max-height: 238px !important; }
+    .pr-img { min-height: 260px !important; height: 260px; padding: 4px !important; }
+    .pr-img img { max-width: 98% !important; max-height: 252px !important; }
     .pr-h3 { font-size: 20px !important; }
   }
 
